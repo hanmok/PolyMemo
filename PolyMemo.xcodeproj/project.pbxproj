@@ -16,6 +16,13 @@
 		9A917EA527303D9800866429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A917EA327303D9800866429 /* LaunchScreen.storyboard */; };
 		9A917EB027303D9900866429 /* PolyMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917EAF27303D9900866429 /* PolyMemoTests.swift */; };
 		9A917EBB27303D9900866429 /* PolyMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917EBA27303D9900866429 /* PolyMemoUITests.swift */; };
+		9A917EDA273041A600866429 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED4273041A600866429 /* Item+CoreDataClass.swift */; };
+		9A917EDB273041A600866429 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED5273041A600866429 /* Item+CoreDataProperties.swift */; };
+		9A917EDC273041A600866429 /* Rate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED6273041A600866429 /* Rate+CoreDataClass.swift */; };
+		9A917EDD273041A600866429 /* Rate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED7273041A600866429 /* Rate+CoreDataProperties.swift */; };
+		9A917EDE273041A600866429 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED8273041A600866429 /* Category+CoreDataClass.swift */; };
+		9A917EDF273041A600866429 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED9273041A600866429 /* Category+CoreDataProperties.swift */; };
+		9A917EE5273044B400866429 /* CoreDataTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917EE4273044B400866429 /* CoreDataTestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		9A917EB627303D9900866429 /* PolyMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A917EBA27303D9900866429 /* PolyMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyMemoUITests.swift; sourceTree = "<group>"; };
 		9A917EBC27303D9900866429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A917ED4273041A600866429 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A917ED5273041A600866429 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A917ED6273041A600866429 /* Rate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A917ED7273041A600866429 /* Rate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A917ED8273041A600866429 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A917ED9273041A600866429 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A917EE4273044B400866429 /* CoreDataTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,12 @@
 		9A917E8927303D9600866429 = {
 			isa = PBXGroup;
 			children = (
+				9A917ED4273041A600866429 /* Item+CoreDataClass.swift */,
+				9A917ED5273041A600866429 /* Item+CoreDataProperties.swift */,
+				9A917ED6273041A600866429 /* Rate+CoreDataClass.swift */,
+				9A917ED7273041A600866429 /* Rate+CoreDataProperties.swift */,
+				9A917ED8273041A600866429 /* Category+CoreDataClass.swift */,
+				9A917ED9273041A600866429 /* Category+CoreDataProperties.swift */,
 				9A917E9427303D9600866429 /* PolyMemo */,
 				9A917EAE27303D9900866429 /* PolyMemoTests */,
 				9A917EB927303D9900866429 /* PolyMemoUITests */,
@@ -104,6 +124,7 @@
 				9A917E9527303D9600866429 /* AppDelegate.swift */,
 				9A917E9727303D9600866429 /* SceneDelegate.swift */,
 				9A917E9927303D9600866429 /* ViewController.swift */,
+				9A917EE4273044B400866429 /* CoreDataTestController.swift */,
 				9A917E9B27303D9600866429 /* Main.storyboard */,
 				9A917EA127303D9800866429 /* Assets.xcassets */,
 				9A917EA327303D9800866429 /* LaunchScreen.storyboard */,
@@ -261,10 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A917EDC273041A600866429 /* Rate+CoreDataClass.swift in Sources */,
+				9A917EDB273041A600866429 /* Item+CoreDataProperties.swift in Sources */,
+				9A917EDA273041A600866429 /* Item+CoreDataClass.swift in Sources */,
 				9A917E9A27303D9600866429 /* ViewController.swift in Sources */,
 				9A917E9627303D9600866429 /* AppDelegate.swift in Sources */,
 				9A917E9827303D9600866429 /* SceneDelegate.swift in Sources */,
 				9A917EA027303D9600866429 /* PolyMemo.xcdatamodeld in Sources */,
+				9A917EDF273041A600866429 /* Category+CoreDataProperties.swift in Sources */,
+				9A917EDE273041A600866429 /* Category+CoreDataClass.swift in Sources */,
+				9A917EE5273044B400866429 /* CoreDataTestController.swift in Sources */,
+				9A917EDD273041A600866429 /* Rate+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

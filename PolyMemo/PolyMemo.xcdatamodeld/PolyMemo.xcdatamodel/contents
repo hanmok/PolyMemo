@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="parentCategory" inverseEntity="Item"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="avgRate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="images" optional="YES" attributeType="Binary"/>
+        <attribute name="link" optional="YES" attributeType="URI"/>
+        <attribute name="location" optional="YES" attributeType="Transformable"/>
+        <attribute name="maxRate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="parentCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="items" inverseEntity="Category"/>
+        <relationship name="rates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rate" inverseName="itemParent" inverseEntity="Rate"/>
+    </entity>
+    <entity name="Rate" representedClassName="Rate" syncable="YES">
+        <attribute name="aspectMemo" optional="YES" attributeType="String"/>
+        <attribute name="aspectTitle" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="itemParent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="rates" inverseEntity="Item"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-18" positionY="27" width="128" height="104"/>
+        <element name="Item" positionX="36" positionY="81" width="128" height="209"/>
+        <element name="Rate" positionX="9" positionY="54" width="128" height="89"/>
+    </elements>
 </model>
