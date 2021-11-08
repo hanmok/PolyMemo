@@ -51,7 +51,7 @@ class PolyMemoTests: XCTestCase {
         
         XCTAssertEqual(categories.count, 2)
         XCTAssertTrue(categories.contains(categoryA))
-        XCTAssertTrue(categories.contains(categoryB))
+        XCTAssertTrue(categories.contains(categoryC))
     }
     
     

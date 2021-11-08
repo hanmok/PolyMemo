@@ -2,7 +2,7 @@
 //  Item+CoreDataProperties.swift
 //  PolyMemo
 //
-//  Created by Mac mini on 2021/11/02.
+//  Created by Mac mini on 2021/11/08.
 //
 //
 
@@ -16,18 +16,18 @@ extension Item {
         return NSFetchRequest<Item>(entityName: "Item")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var avgRate: Double
-    @NSManaged public var memo: String?
     @NSManaged public var comment: String?
+    @NSManaged public var createdAt: Date?
     @NSManaged public var images: Data?
     @NSManaged public var link: URL?
     @NSManaged public var location: NSObject?
-    @NSManaged public var createdAt: Date?
-    @NSManaged public var modifiedAt: Date?
     @NSManaged public var maxRate: Int64
-    @NSManaged public var rates: NSSet?
+    @NSManaged public var memo: String?
+    @NSManaged public var modifiedAt: Date?
+    @NSManaged public var name: String?
     @NSManaged public var parentCategory: Category?
+    @NSManaged public var rates: NSSet?
 
 }
 

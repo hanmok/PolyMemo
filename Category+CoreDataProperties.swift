@@ -2,7 +2,7 @@
 //  Category+CoreDataProperties.swift
 //  PolyMemo
 //
-//  Created by Mac mini on 2021/11/02.
+//  Created by Mac mini on 2021/11/08.
 //
 //
 
@@ -16,10 +16,10 @@ extension Category {
         return NSFetchRequest<Category>(entityName: "Category")
     }
 
-    @NSManaged public var title: String?
-    @NSManaged public var id: UUID?
     @NSManaged public var createdAt: Date?
+    @NSManaged public var id: UUID?
     @NSManaged public var modifiedAt: Date?
+    @NSManaged public var title: String?
     @NSManaged public var items: NSSet?
 
 }

@@ -16,18 +16,22 @@
 		9A917EA527303D9800866429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A917EA327303D9800866429 /* LaunchScreen.storyboard */; };
 		9A917EB027303D9900866429 /* PolyMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917EAF27303D9900866429 /* PolyMemoTests.swift */; };
 		9A917EBB27303D9900866429 /* PolyMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917EBA27303D9900866429 /* PolyMemoUITests.swift */; };
-		9A917EDA273041A600866429 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED4273041A600866429 /* Item+CoreDataClass.swift */; };
-		9A917EDB273041A600866429 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED5273041A600866429 /* Item+CoreDataProperties.swift */; };
-		9A917EDC273041A600866429 /* Rate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED6273041A600866429 /* Rate+CoreDataClass.swift */; };
-		9A917EDD273041A600866429 /* Rate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED7273041A600866429 /* Rate+CoreDataProperties.swift */; };
-		9A917EDE273041A600866429 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED8273041A600866429 /* Category+CoreDataClass.swift */; };
-		9A917EDF273041A600866429 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917ED9273041A600866429 /* Category+CoreDataProperties.swift */; };
 		9A917EE5273044B400866429 /* CoreDataTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917EE4273044B400866429 /* CoreDataTestController.swift */; };
 		9A917F4F2732DF8500866429 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F4E2732DF8500866429 /* CoreDataStack.swift */; };
 		9A917F512732E14A00866429 /* PolyMemoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F502732E14A00866429 /* PolyMemoManager.swift */; };
 		9A917F532732E32400866429 /* memoForModel in Resources */ = {isa = PBXBuildFile; fileRef = 9A917F522732E32400866429 /* memoForModel */; };
 		9A917F552732E3ED00866429 /* CoreDataTestStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F542732E3ED00866429 /* CoreDataTestStack.swift */; };
 		9A917F592732E83500866429 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F582732E83500866429 /* Shape.swift */; };
+		9A917F5B2736DFBA00866429 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F5A2736DFBA00866429 /* ItemController.swift */; };
+		9A917F5F2736E7BA00866429 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F5E2736E7BA00866429 /* UIView+Ext.swift */; };
+		9A917F612736E87200866429 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F602736E87200866429 /* SampleModel.swift */; };
+		9A917F632736EC2700866429 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917F622736EC2700866429 /* ItemViewModel.swift */; };
+		9AC3BEF3273928E10003A389 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3BEED273928E10003A389 /* Category+CoreDataClass.swift */; };
+		9AC3BEF4273928E10003A389 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3BEEE273928E10003A389 /* Category+CoreDataProperties.swift */; };
+		9AC3BEF5273928E10003A389 /* Rate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3BEEF273928E10003A389 /* Rate+CoreDataClass.swift */; };
+		9AC3BEF6273928E10003A389 /* Rate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3BEF0273928E10003A389 /* Rate+CoreDataProperties.swift */; };
+		9AC3BEF7273928E10003A389 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3BEF1273928E10003A389 /* Item+CoreDataClass.swift */; };
+		9AC3BEF8273928E10003A389 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3BEF2273928E10003A389 /* Item+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,18 +67,22 @@
 		9A917EB627303D9900866429 /* PolyMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A917EBA27303D9900866429 /* PolyMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyMemoUITests.swift; sourceTree = "<group>"; };
 		9A917EBC27303D9900866429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A917ED4273041A600866429 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9A917ED5273041A600866429 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		9A917ED6273041A600866429 /* Rate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9A917ED7273041A600866429 /* Rate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		9A917ED8273041A600866429 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9A917ED9273041A600866429 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9A917EE4273044B400866429 /* CoreDataTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestController.swift; sourceTree = "<group>"; };
 		9A917F4E2732DF8500866429 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		9A917F502732E14A00866429 /* PolyMemoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyMemoManager.swift; sourceTree = "<group>"; };
 		9A917F522732E32400866429 /* memoForModel */ = {isa = PBXFileReference; lastKnownFileType = text; path = memoForModel; sourceTree = "<group>"; };
 		9A917F542732E3ED00866429 /* CoreDataTestStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestStack.swift; sourceTree = "<group>"; };
 		9A917F582732E83500866429 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		9A917F5A2736DFBA00866429 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		9A917F5E2736E7BA00866429 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		9A917F602736E87200866429 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		9A917F622736EC2700866429 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		9AC3BEED273928E10003A389 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9AC3BEEE273928E10003A389 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9AC3BEEF273928E10003A389 /* Rate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9AC3BEF0273928E10003A389 /* Rate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9AC3BEF1273928E10003A389 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9AC3BEF2273928E10003A389 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +113,12 @@
 		9A917E8927303D9600866429 = {
 			isa = PBXGroup;
 			children = (
-				9A917ED4273041A600866429 /* Item+CoreDataClass.swift */,
-				9A917ED5273041A600866429 /* Item+CoreDataProperties.swift */,
-				9A917ED6273041A600866429 /* Rate+CoreDataClass.swift */,
-				9A917ED7273041A600866429 /* Rate+CoreDataProperties.swift */,
-				9A917ED8273041A600866429 /* Category+CoreDataClass.swift */,
-				9A917ED9273041A600866429 /* Category+CoreDataProperties.swift */,
+				9AC3BEED273928E10003A389 /* Category+CoreDataClass.swift */,
+				9AC3BEEE273928E10003A389 /* Category+CoreDataProperties.swift */,
+				9AC3BEEF273928E10003A389 /* Rate+CoreDataClass.swift */,
+				9AC3BEF0273928E10003A389 /* Rate+CoreDataProperties.swift */,
+				9AC3BEF1273928E10003A389 /* Item+CoreDataClass.swift */,
+				9AC3BEF2273928E10003A389 /* Item+CoreDataProperties.swift */,
 				9A917E9427303D9600866429 /* PolyMemo */,
 				9A917EAE27303D9900866429 /* PolyMemoTests */,
 				9A917EB927303D9900866429 /* PolyMemoUITests */,
@@ -133,9 +141,9 @@
 			children = (
 				9A917E9527303D9600866429 /* AppDelegate.swift */,
 				9A917E9727303D9600866429 /* SceneDelegate.swift */,
-				9A917E9927303D9600866429 /* ViewController.swift */,
+				9A917F5D2736E78800866429 /* Extensions */,
+				9A917F5C2736E16900866429 /* Controllers */,
 				9A917F4D2732DF7600866429 /* Model */,
-				9A917EE4273044B400866429 /* CoreDataTestController.swift */,
 				9A917E9B27303D9600866429 /* Main.storyboard */,
 				9A917EA127303D9800866429 /* Assets.xcassets */,
 				9A917EA327303D9800866429 /* LaunchScreen.storyboard */,
@@ -179,6 +187,7 @@
 				9A917F4E2732DF8500866429 /* CoreDataStack.swift */,
 				9A917F502732E14A00866429 /* PolyMemoManager.swift */,
 				9A917F522732E32400866429 /* memoForModel */,
+				9A917F602736E87200866429 /* SampleModel.swift */,
 			);
 			path = CoreDatas;
 			sourceTree = "<group>";
@@ -189,6 +198,25 @@
 				9A917F582732E83500866429 /* Shape.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		9A917F5C2736E16900866429 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A917E9927303D9600866429 /* ViewController.swift */,
+				9A917F622736EC2700866429 /* ItemViewModel.swift */,
+				9A917F5A2736DFBA00866429 /* ItemController.swift */,
+				9A917EE4273044B400866429 /* CoreDataTestController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A917F5D2736E78800866429 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A917F5E2736E7BA00866429 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,20 +350,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A917EDC273041A600866429 /* Rate+CoreDataClass.swift in Sources */,
-				9A917EDB273041A600866429 /* Item+CoreDataProperties.swift in Sources */,
-				9A917EDA273041A600866429 /* Item+CoreDataClass.swift in Sources */,
+				9AC3BEF7273928E10003A389 /* Item+CoreDataClass.swift in Sources */,
+				9A917F5F2736E7BA00866429 /* UIView+Ext.swift in Sources */,
+				9A917F612736E87200866429 /* SampleModel.swift in Sources */,
+				9AC3BEF5273928E10003A389 /* Rate+CoreDataClass.swift in Sources */,
+				9A917F632736EC2700866429 /* ItemViewModel.swift in Sources */,
+				9AC3BEF3273928E10003A389 /* Category+CoreDataClass.swift in Sources */,
+				9AC3BEF8273928E10003A389 /* Item+CoreDataProperties.swift in Sources */,
 				9A917F592732E83500866429 /* Shape.swift in Sources */,
 				9A917F4F2732DF8500866429 /* CoreDataStack.swift in Sources */,
 				9A917E9A27303D9600866429 /* ViewController.swift in Sources */,
+				9AC3BEF4273928E10003A389 /* Category+CoreDataProperties.swift in Sources */,
 				9A917F512732E14A00866429 /* PolyMemoManager.swift in Sources */,
 				9A917E9627303D9600866429 /* AppDelegate.swift in Sources */,
 				9A917E9827303D9600866429 /* SceneDelegate.swift in Sources */,
 				9A917EA027303D9600866429 /* PolyMemo.xcdatamodeld in Sources */,
-				9A917EDF273041A600866429 /* Category+CoreDataProperties.swift in Sources */,
-				9A917EDE273041A600866429 /* Category+CoreDataClass.swift in Sources */,
 				9A917EE5273044B400866429 /* CoreDataTestController.swift in Sources */,
-				9A917EDD273041A600866429 /* Rate+CoreDataProperties.swift in Sources */,
+				9A917F5B2736DFBA00866429 /* ItemController.swift in Sources */,
+				9AC3BEF6273928E10003A389 /* Rate+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
